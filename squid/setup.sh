@@ -6,8 +6,8 @@ ulimit -n 65536 # increase reaf file limit
 ufw disable # disable Firewall
 
 # Define the range of ports
-FIRST_PORT=1000
-LAST_PORT=2000
+FIRST_PORT=30000
+LAST_PORT=30100
 # Set username and password
 USERNAME="onet"
 PASSWORD="onet"
